@@ -13,6 +13,8 @@ $span.style.cssText = `
     height: ${r.height}px;
     left: ${r.left}px;
     top: ${r.top}px;
+    margin-top: ${r.marginTop}px;
+    margin-left: ${r.marginLeft}px;
     z-index: -10;
     opacity: 0.4;
     position: absolute;
