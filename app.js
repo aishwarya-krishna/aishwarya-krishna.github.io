@@ -22,8 +22,8 @@ $span.style.cssText = `
     padding-top: ${parseInt(css.paddingTop) + 1}px;
 `;
 
-//document.body.appendChild($span);
-document.getElementById('input').appendChild($span);
+document.body.appendChild($span);
+//document.getElementById('input').appendChild($span);
 
 class Trie {
   constructor() {
