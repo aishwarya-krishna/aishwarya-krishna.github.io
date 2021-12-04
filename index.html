@@ -6,10 +6,16 @@
   <title>Auto-complete</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <style>
+    * {
+      font-family: 'Open Sans', sans-serif;
+    }
 
     body {
       background-image: url('desflow page.PNG');
       background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     h1 {
@@ -20,7 +26,7 @@
       margin-left: 20px;
       font-weight: 300;
     }
-    
+
     #input {
         background: transparent;
         outline: none;
@@ -34,14 +40,14 @@
         padding-top: 10px;
         margin-top: 35%;
     }
-    
-    #absolute {
-      position: absolute;
-      top: 310px;
-      right: 2px;
-      width: 1460px;
-      height: 370px;
 
+    .div {
+        width: auto;
+        display: inline-block;
+        visibility: hidden;
+        position: fixed;
+        overflow: auto;
+        font-size: 25px;
     }
 
     #time {
@@ -56,7 +62,7 @@
 <body>
 <div>
   <h1>Auto-complete...</h1>
-  <div id="absolute" contenteditable="true" id="input"></div>
+  <div contenteditable="true" id="input"></div>
   <div id="time"></div>
   <div id='fake-div' class='div'></div>
 
