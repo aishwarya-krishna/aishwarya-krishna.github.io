@@ -20,8 +20,8 @@ $span.style.cssText = `
     font-size: ${parseInt(css.fontSize)}px;
     padding-left: ${parseInt(css.paddingLeft)}px;
     padding-top: ${parseInt(css.paddingTop) + 1}px;
-    margin-top: ${parseInt(css.marginTop)}px;
-    margin-left: ${parseInt(css.marginLeft)}px;
+    /* margin-top: ${parseInt(css.marginTop)}px;
+    margin-left: ${parseInt(css.marginLeft)}px; */
 `;
 
 document.body.appendChild($span);
