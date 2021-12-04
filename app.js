@@ -13,8 +13,6 @@ $span.style.cssText = `
     height: ${r.height}px;
     left: ${r.left}px;
     top: ${r.top}px;
-    margin-top: ${r.marginTop}px;
-    margin-left: ${r.marginLeft}px;
     z-index: -10;
     opacity: 0.4;
     position: absolute;
@@ -22,6 +20,8 @@ $span.style.cssText = `
     font-size: ${parseInt(css.fontSize)}px;
     padding-left: ${parseInt(css.paddingLeft)}px;
     padding-top: ${parseInt(css.paddingTop) + 1}px;
+    margin-top: ${parseInt(css.marginTop)}px;
+    margin-left: ${parseInt(css.marginLeft)}px;
 `;
 
 document.body.appendChild($span);
